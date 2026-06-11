@@ -184,9 +184,9 @@ function HeroPortrait({
 }) {
   const portraitSrc =
     imageNumber === 1
-      ? "/devansh-portrait-01.jpg"
+      ? "/devansh-portrait-01.png"
       : imageNumber === 3
-        ? "/devansh-portrait-03.jpg"
+        ? "/devansh-portrait-03.png"
         : null;
   const x = useMotionValue(0);
   const y = useMotionValue(0);
