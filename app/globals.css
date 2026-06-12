@@ -472,7 +472,7 @@ a {
   object-fit: cover;
   object-position: center center;
   position: absolute;
-  transform: scale(1.12);
+  transform: scale(1.4) translateY(-20px);
   transform-origin: bottom center;
   transition: filter 400ms ease, transform 700ms var(--ease-out);
   width: 100%;
@@ -480,7 +480,7 @@ a {
 
 .hero-portrait:hover .portrait-image {
   filter: contrast(1.13) brightness(1.06);
-  transform: scale(1.17);
+  transform: scale(1.45) translateY(-20px);
 }
 
 .portrait-silhouette {
