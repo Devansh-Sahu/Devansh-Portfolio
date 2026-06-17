@@ -483,6 +483,14 @@ a {
   transform: scale(1.45) translateY(-20px);
 }
 
+.hero-portrait-center .portrait-image {
+  transform: scale(1.65) translateY(-28px);
+}
+
+.hero-portrait-center:hover .portrait-image {
+  transform: scale(1.7) translateY(-28px);
+}
+
 .portrait-silhouette {
   bottom: -4%;
   filter: drop-shadow(0 -10px 30px rgba(255,255,255,0.04));
