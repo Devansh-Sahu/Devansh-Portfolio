@@ -182,12 +182,7 @@ function HeroPortrait({
   imageNumber: number;
   onClick: () => void;
 }) {
-  const portraitSrc =
-    imageNumber === 1
-      ? "/devansh-portrait-01.png"
-      : imageNumber === 3
-        ? "/devansh-portrait-03.png"
-        : null;
+  const portraitSrc = `/devansh-portrait-0${imageNumber}.png`;
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const rotateX = useSpring(useTransform(y, [-0.5, 0.5], [5, -5]), {
