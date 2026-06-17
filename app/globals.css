@@ -484,11 +484,11 @@ a {
 }
 
 .hero-portrait-center .portrait-image {
-  transform: scale(1.65) translateY(-28px);
+  transform: scale(1.52) translateY(-24px);
 }
 
 .hero-portrait-center:hover .portrait-image {
-  transform: scale(1.7) translateY(-28px);
+  transform: scale(1.57) translateY(-24px);
 }
 
 .portrait-silhouette {
