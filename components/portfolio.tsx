@@ -410,15 +410,7 @@ export default function Portfolio() {
             <span>AI / SYSTEMS / PRODUCT</span>
             <span>Bhopal, India</span>
           </motion.div>
-          <motion.h1
-            initial={{ opacity: 0, y: 35 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.05, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-          >
-            DEVANSH
-            <br />
-            <span>SAHU</span>
-          </motion.h1>
+
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
