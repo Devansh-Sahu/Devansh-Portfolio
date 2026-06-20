@@ -352,7 +352,7 @@ export default function Portfolio() {
         </nav>
         <div className="header-status">
           <span className="status-dot" />
-          Available for select roles
+          Bhopal, India
         </div>
         <button
           className="menu-button"
