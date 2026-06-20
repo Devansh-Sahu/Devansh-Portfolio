@@ -402,13 +402,12 @@ export default function Portfolio() {
 
         <motion.div className="hero-copy" style={{ y: heroY, opacity: heroOpacity }}>
           <motion.div
-            className="hero-kicker"
-            initial={{ opacity: 0, y: 14 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.15, duration: 0.7 }}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            className="hero-kicker"
           >
             <span>AI / SYSTEMS / PRODUCT</span>
-            <span>Bhopal, India</span>
           </motion.div>
 
           <motion.p
