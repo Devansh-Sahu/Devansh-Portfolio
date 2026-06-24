@@ -38,3 +38,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the p
 Feel free to reach out to me!
 - **Email:** devanshstar7@gmail.com
 - **GitHub:** [Devansh-Sahu](https://github.com/Devansh-Sahu)
+- deployed on vercel
